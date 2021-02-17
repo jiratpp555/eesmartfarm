@@ -1,0 +1,125 @@
+body {
+    font-family: 'Yusei Magic', sans-serif; /*activate the font*/
+}
+
+
+body{
+    height: 100vh;
+    
+}
+
+.onbtn{
+    /*position: absolute;*/
+    /*top: 25%;
+    left: 20%;*/
+    color: black;
+    width: 150px;
+    height: 40px;
+    border: 1px solid #338033;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: .6s;
+    overflow: hidden;
+
+}
+
+
+/*.onbtn:after{
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgba(255, 255, 255, .2);
+    width: 30px;
+    height: 100%;
+    left: 30px;
+    top: 0;
+    opacity: 0;
+    filter: blur(30px);
+    transform: translate(-100px) scaleX(-15deg);
+}*/
+
+
+.onbtn:hover{
+    background: #338033;
+    cursor: pointer;
+}
+
+.onbtn:hover::before{
+    transform: translateX(300px) skewX(-15deg);
+    opacity: .6;
+    transition: .7s;
+}
+
+
+.onbtn:hover:after{
+    transform: translateX(300px) skewX(-15deg);
+    opacity: .6;
+    transition: .7s;
+}
+
+
+
+
+.offbtn{
+    /*position: absolute;*/
+    /*top: 25%;
+    left: 20%;*/
+    color: black;
+    width: 150px;
+    height: 40px;
+    border: 1px solid crimson;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: .6s;
+    overflow: hidden;
+
+}
+  
+
+
+/*.offbtn:after{
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgba(255, 255, 255, .2);
+    width: 30px;
+    height: 100%;
+    left: 30px;
+    top: 0;
+    opacity: 0;
+    filter: blur(30px);
+    transform: translate(-100px) scaleX(-15deg);
+}*/
+
+
+.offbtn:hover{
+    background: #e01e1e;
+    cursor: pointer;
+}
+
+.offbtn:hover::before{
+    transform: translateX(300px) skewX(-15deg);
+    opacity: .6;
+    transition: .7s;
+}
+
+
+.offbtn:hover:after{
+    transform: translateX(300px) skewX(-15deg);
+    opacity: .6;
+    transition: .7s;
+}
+
+
+div {
+    /*width: 300px;
+    height: 300px;*/
+    
+    /*background-image: url('index.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px;
+    margin: 100px;*/
+    
+    
+  }
